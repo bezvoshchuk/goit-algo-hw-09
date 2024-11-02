@@ -30,7 +30,7 @@ def find_min_coins(amount):
     print("Час виконання алгоритму динамічного програмування:", end_time - start_time)
     return change
 
-# Приклад використання:
+# Example:
 amount = 113
 print("Жадібний алгоритм:", find_coins_greedy(amount))
 print("Алгоритм динамічного програмування:", find_min_coins(amount))
